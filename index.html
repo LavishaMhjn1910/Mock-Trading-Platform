@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mock Trading Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+  <header>
+    <h1>📈 Mock Trading Platform</h1>
+    <p class="typewriter">Welcome! Simulate buying and selling stocks.</p>
+    <div class="balance">Balance: ₹<span id="balance">10000</span></div>
+
+    <div class="dark-toggle">
+  <label class="switch">
+    <input type="checkbox" id="darkModeToggle">
+    <span class="slider round"></span>
+  </label>
+  <span class="toggle-label">Dark Mode</span>
+</div>
+
+  </header>
+
+  <main>
+    <section class="stocks">
+      <h2 class="wavy-text">Available Stocks</h2>
+      <div id="stock-list" class="grid"></div>
+    </section>
+
+    <section class="portfolio">
+      <h2>Your Portfolio</h2>
+      <ul id="portfolio"></ul>
+    </section>
+
+    <section class="transactions">
+      <h2 class="fade-in">Transaction History</h2>
+      <ul id="transaction-log"></ul>
+    </section>
+    <section class="chart-section">
+  <h2>📊 Portfolio Overview</h2>
+  <canvas id="portfolioChart" width="400" height="200"></canvas>
+</section>
+
+  </main>
+
+  <footer>
+    <p>Created with ❤️ by Lavisha Mahajan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
