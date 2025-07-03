@@ -2,6 +2,7 @@
 # 💹 Mock Trading Platform
 
 A beginner-friendly mock trading platform built using HTML, CSS, JavaScript, and Chart.js. This project allows users to simulate buying and selling stocks, track their portfolio, view transaction history, switch between light and dark mode, and visualize their holdings using interactive charts.
+
 Disclaimer- This project is currently ongoing! 
 
 ---
